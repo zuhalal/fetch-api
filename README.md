@@ -6,3 +6,5 @@ How to use files?
 2. Extract fetch-main.zip
 3. click index.html to see the fetch-api
 4. click get-post to get data from API
+
+API source: https://jsonplaceholder.typicode.com/posts
