@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Fetch API</title>
+</head>
+<body>
+    <div class="container">
+        <div class="button flex justify-center mt-16 ml-64">
+            <button id="btn" type="button" class="bg-blue-600 text-white border-2 rounded-md p-3 items-center">Get Post</button>
+        </div>  
+    </div>
+    <div id="results" class="results mt-6">
+        <div class="card p-4">
+            <table class="table-nilai text-center border-solid border-2 table-fixed w-full">
+                <thead class="border-solid border-2 mr-24">
+                    <tr>
+                        <th class="pr-2 border-solid border-2 w-1/12">UserID</th>
+                        <th class="pr-2 border-solid border-2 w-1/12">ID</th>
+                        <th class="pr-2 border-solid border-2 w-5/12">Title</th>
+                        <th class="pr-2 border-solid border-2 w-5/12">Body</th>
+                    </tr>
+                </thead>
+                <tbody id="body-table">
+                    
+                </tbody>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
